@@ -1,5 +1,5 @@
  import axios from 'axios'
-const URL='https://emailer.onrender.com';
+const URL='https://emailer.onrender.com/';
  export const addUser=async(data)=>{
     try{
         return await axios.post(`${URL}/add`,data)

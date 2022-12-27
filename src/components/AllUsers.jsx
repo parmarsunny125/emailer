@@ -80,7 +80,7 @@ const AllUsers = () => {
     console.log(JSON.stringify(extractedData));
 
     // Send data to backend server
-    await axios.post('http://localhost:8000/senddata', { data: extractedData })
+    await axios.post('https://emailer-api.onrender.com/senddata', { data: extractedData })
       .then(res => {
         console.log("sent");
         setData(res.data);

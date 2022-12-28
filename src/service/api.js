@@ -11,7 +11,7 @@ const URL='https://emailer-api.onrender.com/';
  export const getUsers = async () =>{
     try{
 
-        return await axios.get(`${URL}/all`)
+        return await axios.get(`${URL}/`)
     }catch(error){
         console.log(error);
     }

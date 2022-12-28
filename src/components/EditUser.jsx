@@ -39,7 +39,7 @@ const EditUser = () => {
   }
   const editUserDetails=async()=>{
    await editUser(user,id)
-   navigate('/all')
+   navigate('/')
   }
   return (
     <Container>

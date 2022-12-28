@@ -30,7 +30,7 @@ const AddUser = () => {
   }
   const addUserDetails=async()=>{
    await addUser(user)
-   navigate('/all')
+   navigate('/')
   }
   return (
     <Container>
